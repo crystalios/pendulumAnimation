@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1352C017CF42950034E9D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1352BF17CF42950034E9D6 /* UIKit.framework */; };
+		CE1352C217CF42950034E9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1352C117CF42950034E9D6 /* Foundation.framework */; };
+		CE1352C417CF42950034E9D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1352C317CF42950034E9D6 /* CoreGraphics.framework */; };
+		CE1352CA17CF42950034E9D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1352C817CF42950034E9D6 /* InfoPlist.strings */; };
+		CE1352CC17CF42950034E9D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1352CB17CF42950034E9D6 /* main.m */; };
+		CE1352D017CF42950034E9D6 /* YZSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1352CF17CF42950034E9D6 /* YZSAppDelegate.m */; };
+		CE1352D217CF42950034E9D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1352D117CF42950034E9D6 /* Default.png */; };
+		CE1352D417CF42950034E9D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1352D317CF42950034E9D6 /* Default@2x.png */; };
+		CE1352D617CF42950034E9D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1352D517CF42950034E9D6 /* Default-568h@2x.png */; };
+		CE1352D917CF42950034E9D6 /* YZSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1352D817CF42950034E9D6 /* YZSViewController.m */; };
+		CE1352DC17CF42950034E9D6 /* YZSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1352DA17CF42950034E9D6 /* YZSViewController_iPhone.xib */; };
+		CE1352DF17CF42950034E9D6 /* YZSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1352DD17CF42950034E9D6 /* YZSViewController_iPad.xib */; };
+		CE1352E617CF432F0034E9D6 /* p_scroll1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1352E517CF432F0034E9D6 /* p_scroll1.png */; };
+		CE1352E817CF44130034E9D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1352E717CF44130034E9D6 /* QuartzCore.framework */; };
+		CE1352EA17CF444F0034E9D6 /* yue.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1352E917CF444F0034E9D6 /* yue.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1352BC17CF42950034E9D6 /* pendulumAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pendulumAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1352BF17CF42950034E9D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE1352C117CF42950034E9D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE1352C317CF42950034E9D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE1352C717CF42950034E9D6 /* pendulumAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pendulumAnimation-Info.plist"; sourceTree = "<group>"; };
+		CE1352C917CF42950034E9D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE1352CB17CF42950034E9D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE1352CD17CF42950034E9D6 /* pendulumAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pendulumAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		CE1352CE17CF42950034E9D6 /* YZSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSAppDelegate.h; sourceTree = "<group>"; };
+		CE1352CF17CF42950034E9D6 /* YZSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSAppDelegate.m; sourceTree = "<group>"; };
+		CE1352D117CF42950034E9D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE1352D317CF42950034E9D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE1352D517CF42950034E9D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE1352D717CF42950034E9D6 /* YZSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSViewController.h; sourceTree = "<group>"; };
+		CE1352D817CF42950034E9D6 /* YZSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSViewController.m; sourceTree = "<group>"; };
+		CE1352DB17CF42950034E9D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YZSViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE1352DE17CF42950034E9D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YZSViewController_iPad.xib; sourceTree = "<group>"; };
+		CE1352E517CF432F0034E9D6 /* p_scroll1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_scroll1.png; sourceTree = "<group>"; };
+		CE1352E717CF44130034E9D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE1352E917CF444F0034E9D6 /* yue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yue.png; path = "../../岳宗申资料/ios/课程/UI/UI 素材/background/yue.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1352B917CF42950034E9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1352E817CF44130034E9D6 /* QuartzCore.framework in Frameworks */,
+				CE1352C017CF42950034E9D6 /* UIKit.framework in Frameworks */,
+				CE1352C217CF42950034E9D6 /* Foundation.framework in Frameworks */,
+				CE1352C417CF42950034E9D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1352B317CF42950034E9D6 = {
+			isa = PBXGroup;
+			children = (
+				CE1352E717CF44130034E9D6 /* QuartzCore.framework */,
+				CE1352C517CF42950034E9D6 /* pendulumAnimation */,
+				CE1352BE17CF42950034E9D6 /* Frameworks */,
+				CE1352BD17CF42950034E9D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1352BD17CF42950034E9D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1352BC17CF42950034E9D6 /* pendulumAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1352BE17CF42950034E9D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE1352BF17CF42950034E9D6 /* UIKit.framework */,
+				CE1352C117CF42950034E9D6 /* Foundation.framework */,
+				CE1352C317CF42950034E9D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1352C517CF42950034E9D6 /* pendulumAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CE1352CE17CF42950034E9D6 /* YZSAppDelegate.h */,
+				CE1352CF17CF42950034E9D6 /* YZSAppDelegate.m */,
+				CE1352D717CF42950034E9D6 /* YZSViewController.h */,
+				CE1352D817CF42950034E9D6 /* YZSViewController.m */,
+				CE1352DA17CF42950034E9D6 /* YZSViewController_iPhone.xib */,
+				CE1352DD17CF42950034E9D6 /* YZSViewController_iPad.xib */,
+				CE1352E517CF432F0034E9D6 /* p_scroll1.png */,
+				CE1352E917CF444F0034E9D6 /* yue.png */,
+				CE1352C617CF42950034E9D6 /* Supporting Files */,
+			);
+			path = pendulumAnimation;
+			sourceTree = "<group>";
+		};
+		CE1352C617CF42950034E9D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1352C717CF42950034E9D6 /* pendulumAnimation-Info.plist */,
+				CE1352C817CF42950034E9D6 /* InfoPlist.strings */,
+				CE1352CB17CF42950034E9D6 /* main.m */,
+				CE1352CD17CF42950034E9D6 /* pendulumAnimation-Prefix.pch */,
+				CE1352D117CF42950034E9D6 /* Default.png */,
+				CE1352D317CF42950034E9D6 /* Default@2x.png */,
+				CE1352D517CF42950034E9D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1352BB17CF42950034E9D6 /* pendulumAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1352E217CF42950034E9D6 /* Build configuration list for PBXNativeTarget "pendulumAnimation" */;
+			buildPhases = (
+				CE1352B817CF42950034E9D6 /* Sources */,
+				CE1352B917CF42950034E9D6 /* Frameworks */,
+				CE1352BA17CF42950034E9D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pendulumAnimation;
+			productName = pendulumAnimation;
+			productReference = CE1352BC17CF42950034E9D6 /* pendulumAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1352B417CF42950034E9D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "岳宗申";
+			};
+			buildConfigurationList = CE1352B717CF42950034E9D6 /* Build configuration list for PBXProject "pendulumAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1352B317CF42950034E9D6;
+			productRefGroup = CE1352BD17CF42950034E9D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1352BB17CF42950034E9D6 /* pendulumAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1352BA17CF42950034E9D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1352CA17CF42950034E9D6 /* InfoPlist.strings in Resources */,
+				CE1352D217CF42950034E9D6 /* Default.png in Resources */,
+				CE1352D417CF42950034E9D6 /* Default@2x.png in Resources */,
+				CE1352D617CF42950034E9D6 /* Default-568h@2x.png in Resources */,
+				CE1352DC17CF42950034E9D6 /* YZSViewController_iPhone.xib in Resources */,
+				CE1352DF17CF42950034E9D6 /* YZSViewController_iPad.xib in Resources */,
+				CE1352E617CF432F0034E9D6 /* p_scroll1.png in Resources */,
+				CE1352EA17CF444F0034E9D6 /* yue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1352B817CF42950034E9D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1352CC17CF42950034E9D6 /* main.m in Sources */,
+				CE1352D017CF42950034E9D6 /* YZSAppDelegate.m in Sources */,
+				CE1352D917CF42950034E9D6 /* YZSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE1352C817CF42950034E9D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1352C917CF42950034E9D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE1352DA17CF42950034E9D6 /* YZSViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1352DB17CF42950034E9D6 /* en */,
+			);
+			name = YZSViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CE1352DD17CF42950034E9D6 /* YZSViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1352DE17CF42950034E9D6 /* en */,
+			);
+			name = YZSViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1352E017CF42950034E9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE1352E117CF42950034E9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1352E317CF42950034E9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pendulumAnimation/pendulumAnimation-Prefix.pch";
+				INFOPLIST_FILE = "pendulumAnimation/pendulumAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE1352E417CF42950034E9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pendulumAnimation/pendulumAnimation-Prefix.pch";
+				INFOPLIST_FILE = "pendulumAnimation/pendulumAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1352B717CF42950034E9D6 /* Build configuration list for PBXProject "pendulumAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1352E017CF42950034E9D6 /* Debug */,
+				CE1352E117CF42950034E9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1352E217CF42950034E9D6 /* Build configuration list for PBXNativeTarget "pendulumAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1352E317CF42950034E9D6 /* Debug */,
+				CE1352E417CF42950034E9D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1352B417CF42950034E9D6 /* Project object */;
+}
